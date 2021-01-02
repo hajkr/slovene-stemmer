@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  slovene_stemmer:
+    container_name: slovene_stemmer
+    build: .
+    volumes:
+      - .:/app
+    command: irb
+    stdin_open: true
+    tty: true

@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    slovene_stemmer (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  slovene_stemmer!
+
+BUNDLED WITH
+   2.1.4
