@@ -13,10 +13,10 @@ Run the following in your terminal
 gem install slovene_stemmer
 ```
 
-or put the following in your Gemfile
+or put this in your Gemfile
 
 ``` ruby
-require 'slovene_stemmer'
+gem 'slovene_stemmer'
 ```
 
 ## How to use
@@ -24,6 +24,7 @@ require 'slovene_stemmer'
 ``` ruby
 require 'slovene_stemmer'
 
+SloveneStemmer.stem('Triglav') # => Trigl
 SloveneStemmer.stem('Triglavski') # => Trigl
 SloveneStemmer.stem('Triglavska') # => Trigl
 SloveneStemmer.stem('Triglavskim') # => Trigl
