@@ -3,6 +3,7 @@
 A basic implementation of a stemmer for Slovene language. 
 
 Inspired by the never implemented snowball version: 
+
 http://snowball.tartarus.org/archives/snowball-discuss/0725.html
 
 ## Installation guide
