@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   end
   s.bindir = "exe"
   s.executables = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  s.require_paths = ["lib"]
+  s.require_paths = %w[lib config]
 end
