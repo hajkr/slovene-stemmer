@@ -6,21 +6,23 @@ Inspired by the never implemented snowball version:
 
 http://snowball.tartarus.org/archives/snowball-discuss/0725.html
 
-## Installation guide
+## Installation
 
-Run the following in your terminal
+Add this line to your application's Gemfile:
 
-``` bash
-gem install slovene_stemmer
-```
-
-or put this in your Gemfile
-
-``` ruby
+```ruby
 gem 'slovene_stemmer'
 ```
 
-## How to use
+And then execute:
+
+    $ bundle install
+
+Or install it yourself as:
+
+    $ gem install slovene_stemmer
+
+## Usage
 
 ``` ruby
 require 'slovene_stemmer'

@@ -7,6 +7,8 @@ RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
 COPY Gemfile* $APP_HOME/
+COPY . $APP_HOME/
+RUN ls -la
 COPY slovene_stemmer.gemspec* $APP_HOME/
 RUN bundle install
 
