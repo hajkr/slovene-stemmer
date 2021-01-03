@@ -1,7 +1,6 @@
 require 'yaml'
 require_relative './slovene_stemmer/stem'
 
-# Inspired by: http://snowball.tartarus.org/archives/snowball-discuss/0725.html
 module SloveneStemmer
   extend self
 
