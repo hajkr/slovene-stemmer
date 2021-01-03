@@ -1,6 +1,8 @@
 # Slovene Stemmer
 
-A basic implementation of a stemmer for Slovene language. It's not perfect, but it works for most cases.
+[![Gem Version](https://badge.fury.io/rb/slovene_stemmer@2x.png)](https://badge.fury.io/rb/slovene_stemmer)
+
+A basic ruby implementation of a stemmer for Slovene language. It's not perfect, but it works for most cases.
 
 Inspired by the never implemented snowball version: 
 
