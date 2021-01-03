@@ -1,6 +1,6 @@
 # Slovene Stemmer
 
-A basic implementation of a stemmer for Slovene language. 
+A basic implementation of a stemmer for Slovene language. It's not perfect, but it works for most cases.
 
 Inspired by the never implemented snowball version: 
 
